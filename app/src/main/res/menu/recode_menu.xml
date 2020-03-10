@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/delete_all_recode"
+        android:title="@string/delete_list_recode"
+        android:orderInCategory="100"
+        app:showAsAction="never"  />
+</menu>

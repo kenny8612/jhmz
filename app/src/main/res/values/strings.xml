@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">碣海明珠</string>
+    <string name="title_in_storage">入库</string>
+    <string name="title_out_storage">出库</string>
+    <string name="title_search_storage">搜索</string>
+    <string name="title_main">库存表</string>
+    <string name="title_storage_recode">库存记录</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="barcode">条码</string>
+    <string name="name">名称</string>
+    <string name="storage_number">库存量</string>
+    <string name="update_time">更新时间</string>
+    <string name="cancel">取消</string>
+    <string name="number">数量</string>
+    <string name="input_or_scan_barcode">输入或扫描条码</string>
+    <string name="input_name">输入名称，若库存已有该产品名称，可保留此处为空使用旧名称</string>
+    <string name="error_in_storage_data">入库数据错误，请检查</string>
+    <string name="in_storage_success">入库成功</string>
+    <string name="ok">确定</string>
+    <string name="err_out_storage_number">出库错误，库存量不足</string>
+    <string name="err_out_storage_no_product">出库错误，找不到该产品</string>
+    <string name="error_out_storage_data">请检查出库数据</string>
+    <string name="out_storage_success">出库成功</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="min_storage_number">最低</string>
+    <string name="max_storage_number">最高</string>
+    <string name="search_content">根据条码、名称、库存范围搜索</string>
+    <string name="storage_range">库存范围:</string>
+    <string name="copy_done">已复制</string>
+    <string name="modify">修改</string>
+    <string name="modify_product_hint">输入新名称，空表示删除旧名称</string>
+    <string name="recode_single_search">条码搜索库存记录</string>
+    <string name="import_recode_remind">*此操作将覆盖原有库存记录，请谨慎操作\n是否继续导入？</string>
+    <string name="permissions">应用缺少运行时权限，请授权</string>
+    <string name="export_storage">导出库存</string>
+    <string name="import_storage">导入库存</string>
+    <string name="about">关于</string>
+    <string name="sort_data_ascending">按日期升序排序</string>
+    <string name="sort_data_descending">按日期降序排序</string>
+    <string name="show_all_recode">显示所有进出库</string>
+    <string name="show_in_recode">只显示入库</string>
+    <string name="show_out_recode">只显示出库</string>
+    <string name="delete_list_recode">删除列表记录</string>
+    <string name="str_to">到</string>
+    <string name="show_date_recode">按日期显示</string>
+    <string name="recode_show_type">记录类型：</string>
+    <string name="delete_recode_remind">*确定删除库存记录，此操作将不可恢复</string>
+</resources>

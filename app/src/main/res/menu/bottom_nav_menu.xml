@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_main" />
+
+    <item
+        android:id="@+id/navigation_in_storage"
+        android:icon="@drawable/ic_in_storage_24dp"
+        android:title="@string/title_in_storage" />
+
+    <item
+        android:id="@+id/navigation_out_storage"
+        android:icon="@drawable/ic_out_storage_24dp"
+        android:title="@string/title_out_storage" />
+
+    <item
+        android:id="@+id/navigation_storage_search"
+        android:icon="@drawable/ic_storage_search_24dp"
+        android:title="@string/title_search_storage" />
+
+    <item
+        android:id="@+id/navigation_storage_recode"
+        android:icon="@drawable/ic_storage_recode_24dp"
+        android:title="@string/title_storage_recode" />
+
+</menu>

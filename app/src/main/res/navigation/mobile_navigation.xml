@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kenny.jhmz.ui.home.AllStorageFragment"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_in_storage"
+        android:name="com.kenny.jhmz.ui.instorage.InStorageFragment"
+        android:label="@string/title_in_storage"
+        tools:layout="@layout/in_storage_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_out_storage"
+        android:name="com.kenny.jhmz.ui.outstorage.OutStorageFragment"
+        android:label="@string/title_out_storage"
+        tools:layout="@layout/out_storage_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_storage_search"
+        android:name="com.kenny.jhmz.ui.search.SearchStorageFragment"
+        android:label="@string/title_search_storage"
+        tools:layout="@layout/search_storage_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_storage_recode"
+        android:name="com.kenny.jhmz.ui.recode.RecodeStorageFragment"
+        android:label="@string/title_storage_recode"
+        tools:layout="@layout/recode_storage_fragment" />
+</navigation>

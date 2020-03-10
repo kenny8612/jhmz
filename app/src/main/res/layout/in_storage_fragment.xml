@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:autofillHints=""
+        android:hint="@string/input_or_scan_barcode"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:autofillHints=""
+        android:textSize="12sp"
+        android:hint="@string/input_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ed_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:selectAllOnFocus="true"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <Button
+        style="?android:attr/buttonTint"
+        android:id="@+id/bt_in_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_in_storage" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:autofillHints=""
+            android:id="@+id/ed_storage_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textSize="16sp"
+            android:selectAllOnFocus="true"
+            android:hint="@string/search_content"
+            android:imeOptions="actionSearch"
+            android:inputType="text" />
+        <ImageView
+            android:id="@+id/bt_storage_search"
+            android:src="@drawable/search"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/storage_range"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:autofillHints=""
+            android:id="@+id/et_min_storage_number"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:hint="@string/min_storage_number"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/str_to"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:autofillHints=""
+            android:id="@+id/et_max_storage_number"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:hint="@string/max_storage_number"
+            android:textSize="16sp"
+            android:imeOptions="actionSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.kenny.jhmz.ui.control.ProductListView
+        android:id="@+id/lv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
