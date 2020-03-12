@@ -6,21 +6,18 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
-
 import com.kenny.jhmz.R;
 import com.kenny.jhmz.data.Product;
 import com.kenny.jhmz.data.StorageRecode;
-
 import java.util.Objects;
-
 import io.realm.Realm;
+import mehdi.sakout.fancybuttons.FancyButton;
 
 public class InStorageFragment extends Fragment {
     private EditText ed_barcode;
@@ -34,7 +31,7 @@ public class InStorageFragment extends Fragment {
         ed_barcode = root.findViewById(R.id.ed_barcode);
         ed_name = root.findViewById(R.id.ed_name);
         ed_number = root.findViewById(R.id.ed_number);
-        final Button bt_in_storage = root.findViewById(R.id.bt_in_storage);
+        final FancyButton bt_in_storage = root.findViewById(R.id.bt_in_storage);
         bt_in_storage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

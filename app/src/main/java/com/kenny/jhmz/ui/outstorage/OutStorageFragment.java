@@ -21,6 +21,7 @@ import com.kenny.jhmz.data.StorageRecode;
 import java.util.Objects;
 
 import io.realm.Realm;
+import mehdi.sakout.fancybuttons.FancyButton;
 
 public class OutStorageFragment extends Fragment {
     private EditText ed_barcode;
@@ -32,7 +33,7 @@ public class OutStorageFragment extends Fragment {
         ed_barcode = root.findViewById(R.id.ed_barcode);
         ed_number = root.findViewById(R.id.ed_number);
 
-        Button bt_out_storage = root.findViewById(R.id.bt_out_storage);
+        FancyButton bt_out_storage = root.findViewById(R.id.bt_out_storage);
         bt_out_storage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

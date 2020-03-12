@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('D:\\kenny.jks')
+            storePassword '12345678'
+            keyAlias = 'key0'
+            keyPassword '12345678'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
 
@@ -13,6 +21,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
@@ -53,4 +62,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'pub.devrel:easypermissions:3.0.0'
     implementation 'com.leon:lfilepickerlibrary:1.8.0'
+    implementation 'com.github.medyo:fancybuttons:1.9.1'
 }

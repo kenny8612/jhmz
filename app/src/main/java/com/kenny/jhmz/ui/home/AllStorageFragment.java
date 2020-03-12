@@ -93,7 +93,7 @@ public class AllStorageFragment extends Fragment {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext())
                         .setTitle(getContext().getString(R.string.app_name))
                         .setIcon(R.mipmap.ic_launcher)
-                        .setMessage("版本名:"+Utils.getVersionName(Objects.requireNonNull(getContext()))+"\n版本号:"+Utils.getVersionCode(getContext()));
+                        .setMessage("版本号: v"+Utils.getVersionName(Objects.requireNonNull(getContext())));
                 builder.create().show();
                 break;
 
