@@ -83,7 +83,7 @@ public class SearchStorageFragment extends Fragment {
         if (!et_max_storage_number.getText().toString().isEmpty())
             max_number = Integer.parseInt(et_max_storage_number.getText().toString());
 
-        if (min_number >= 0 && max_number >= 0 && max_number >= min_number)
+        if (min_number >= 0 && max_number > 0 && max_number >= min_number)
             search_by_number = true;
 
         products = null;
